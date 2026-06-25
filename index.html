@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+      <nav>
+        <a href="#" class="logo"><span>Portfolio</span> Website</a>
+
+        <ul class="links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </ul>
+
+          <i class='bx bx-menu-alt-right' id="menu"></i>
+          <a href="#contact" class="btn">Contact Me</a>
+          <i class='bx bx-moon' id="darkMode-icon"></i>
+      </nav>
+          <section id="home">
+            <img src="profile3.jpeg" alt="Profile Picture" />
+            <div class="info-box">
+            <h1><span>Hi, I'm Abhinav </span></h1>
+            <h3><span>Content Creator | Reel-Direction | Freelancer</span></h3>
+            <p> "I am a passionate Content Creator dedicated to turning ideas into engaging digital experiences. Specializing in visual storytelling, 
+              video production, and digital strategy, I build meaningful connections between brands and their audiences. 
+              Take a look at my work below to see how I bring stories to life."</p>
+
+            <div class="btn-box">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#" class="btn">Download CV</a></div>
+            </div>
+          </section>
+          <section id="about">
+  <!-- FIX: Cleaned up the class attribute quotes here -->
+  <div class="about-box">
+    <div class="about-info">
+      <h1><span>About Me</span></h1>
+      <p>"I am a Content Creator and Videographer, focused on crafting digital experiences that captivate and engage. Through dynamic visual storytelling
+         and strategic media production, I help brands and communities connect in meaningful ways. Take a look at my recent work below."</p>
+    </div>
+    <h2><span>Skills</span></h2>
+    <div class="skills">
+      <!-- To get two columns side-by-side like the video, split them into two <ul> tags -->
+      <ul>
+        <li><span><i class='bx bx-chevron-right'></i>ContentCreator</span></li>
+        <li><span><i class='bx bx-chevron-right'></i>Desgin</span></li>
+        <li><span><i class='bx bx-chevron-right'></i>Reel Dirrection</span></li>
+      </ul>
+      <!--<ul>
+        <li><span><i class='bx bx-chevron-right'></i>Design</span></li>
+        <li><span><i class='bx bx-chevron-right'></i>Digital Design</span></li>
+        <li><span><i class='bx bx-chevron-right'></i>Digital Design</span></li> -->
+      </ul>
+    </div>
+  </div>
+  <img src="About1.jpeg" alt="Profile Picture" />
+        </section>
+      <section id="services">
+          <h1 class="header"><span>Services</span></h1>
+
+          <div class="services-container">
+
+            <div class="box">
+                <h1><span>Design</span></h1>
+                <p>Transforming ideas into visually striking digital assets. I create clean, user-focused designs that capture attention and communicate your message effectively across all platforms.</p>
+                <img src="design.jpeg" alt="Design Service" />
+            </div>
+
+              <div class="box">
+                <h1><span>Branding</span></h1>
+                <p>Crafting memorable brand identities from the ground up. I build cohesive visual systems, custom logos, and style guides that make your business truly unforgettable.</p>
+                <img src="onlinemarketing.jpeg" alt="Branding Service" />
+              </div>
+
+              <div class="box">
+                <h1><span>Socialmedia Handling</span></h1>
+                <p>Growing your online presence through strategic content. I manage your channels, design engaging visual posts, and build authentic, lasting connections with your target audience.</p>
+                <img src="socialmedia.jpeg" alt="Digital Design Service" />
+              </div>
+
+          </div>
+
+      </section>
+      <section id="contact">
+        <h1 class="header"><span>Contact</span></h1>
+        
+        <form action="Https://formspree.io/f/mpqebpga" method="POST" id="contactForm">
+          
+              <div class="input-box">
+                <span>Full Name</span>
+                <input type="text" placeholder="Enter Your Full Name" required>
+              </div>
+              
+              <div class="input-box">
+                <span>Your Email</span>
+                <input type="email" name="email" placeholder="Email Address" required>
+              </div>
+
+              <div class="input-box">
+                <span>Contact Number</span>
+                <input type="tel" name="phone" placeholder="Phone Number" maxlength="10" required>
+              </div>
+              
+              <div class="input-box">
+                <span>Your Message</span>
+                <textarea name="message" id="" placeholder="Your Message" cols="30" rows="10" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn">Submit</button>
+              
+        </form>
+      </section>
+      <footer>
+        <div class="col-left">
+              <div class="col-box">
+                <span><i class='bx bxs-location-plus'></i></span>
+                <span>vyttila, Ernakulam</span>
+              </div>
+              <div class="col-box">
+                <span><i class='bx bxs-phone'></i></span>
+                <span>+91 9074068300</span>
+              </div>
+              <div class="col-box">
+                <span><i class='bx bxs-envelope'></i></span>
+                <span>Abhinavabhi99284@gmail.com</span>
+              </div>
+        </div>
+        <div class="col-right">
+          <span>About my services</span>
+          <P> I am a Content Creator focused on crafting digital experiences that captivate and engage. Through dynamic visual storytelling and strategic media production, I help brands and communities connect in meaningful ways. Take a look at my recent work below.</P>
+            <div class="social-icons">
+              <span><i class='bx bxl-facebook-square'></i></span>
+              <span><i class='bx bxl-instagram-alt'></i></span>
+              <span><i class='bx bxl-linkedin-square'></i></span>
+              <span><i class='bx bxl-github'></i></span>
+            </div>
+        </div>
+      </footer>
+        
+    <script src="script.js"></script>
+  </body>
+</html>
