@@ -386,7 +386,7 @@ footer{
   color: white;
 }
 
-@media(max-width: 968px){
+@media(max-width: 768px){
   section{
     padding: 8em 15%;
   }
@@ -431,7 +431,8 @@ footer{
     flex-direction: column;
   }
   #about img{
-    width: 32vw;
+    width: 80vw;
+    margin-top: 2em;
   }
   #about h1{
     font-size: 3em;
